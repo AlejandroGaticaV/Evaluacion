@@ -65,124 +65,54 @@
   </nav>
 </body>
 
-<main>
-  <h1 class="visually-hidden">Heroes examples</h1>
-
-  <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold">Centered hero</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-      </div>
+<section 
+  id="informate" style="background-color:#f5f5f5; padding: 3rem 1rem; margin-top: 2rem;">
+  <div style="width: 100%; max-width: 1024px; height: 200px; margin: 1rem auto 1rem auto;"> <!-- Reducido el margen superior y el inferior -->
+    <img src="./img/ChocoboBanner.jpg" alt="Banner Mundo Chocobo" 
+         style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+  </div>
+  
+  <section id="informate" style="background-color: transparent; padding: 2rem 1rem 1rem 1rem; margin-top: 0rem;"> <!-- Reducido el padding superior -->
+    <div style="max-width: 800px; margin: auto; text-align: center;">
+      <h1 style="font-size: 2.8rem; color: #ffcc00; margin-bottom: 1rem;">📰 Bienvenido al Centro del Héroe</h1>
+      <p style="font-size: 1.2rem; color: #333; margin-bottom: 2rem;">
+        Ya sabes que en <strong>Mundo Chocobo</strong> vivimos y respiramos videojuegos. Pero si no quieres perderte ningún detalle —desde lanzamientos sorpresa hasta eventos exclusivos— esta es tu zona clave. Aquí te mostramos cómo mantenerte conectado con todo lo que importa, sin tener que buscarlo tú.
+      </p>
+      <h2 style="color: #222; font-size: 2rem; margin-bottom: 1rem;">Formas de mantenerte informado</h2>
     </div>
+  </section>
+
+  <ul style="text-align: left; list-style: none; padding-left: 0; max-width: 600px; margin: auto; font-size: 1.1rem; color: #444;">
+    <li style="margin-bottom: 1rem;">📬 <strong>Boletín Semanal:</strong> Recibe cada viernes un resumen con noticias, lanzamientos y recomendaciones.</li>
+    <li style="margin-bottom: 1rem;">📱 <strong>Notificaciones al instante:</strong> Activa alertas push para enterarte de anuncios de último minuto.</li>
+    <li style="margin-bottom: 1rem;">🎮 <strong>Top Chocobo:</strong> Un ranking mensual con los juegos más populares según nuestra comunidad.</li>
+    <li style="margin-bottom: 1rem;">🗓️ <strong>Calendario Gamer:</strong> Conoce los eventos, conferencias y torneos que se vienen cada mes.</li>
+  </ul>
+
+  <div style="margin-top: 3rem; text-align: center;">
+    <h2 style="color: #111; font-size: 1.8rem; margin-bottom: 1rem;">🔮 Próximamente en Mundo Chocobo</h2>
+    <p style="font-size: 1.1rem; color: #555; margin-bottom: 1rem;">
+      Estamos preparando nuevas formas de estar más cerca de ti y llevarte lo mejor del gaming donde sea que estés:
+    </p>
+    <ul style="list-style: none; padding: 0; font-size: 1rem; color: #444;">
+      <li style="margin-bottom: 0.5rem;">📸 <strong>Cuenta oficial de Instagram</strong>: Noticias rápidas, encuestas y los mejores memes gamer.</li>
+      <li style="margin-bottom: 0.5rem;">📘 <strong>Página de Facebook</strong>: Para que compartas nuestras publicaciones y estés en comunidad.</li>
+      <li style="margin-bottom: 0.5rem;">🎥 <strong>Canal de YouTube</strong>: Con resúmenes semanales, análisis y contenido exclusivo en video.</li>
+    </ul>
+    <p style="margin-top: 1rem; font-size: 0.95rem; color: #777;">
+      ¡Síguenos la pista! Estamos en fase de carga 🎮⏳
+    </p>
   </div>
 
-  <div class="b-example-divider"></div>
-
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <h1 class="display-4 fw-bold">Centered screenshot</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-      </div>
-    </div>
-    <div class="overflow-hidden" style="max-height: 30vh;">
-      <div class="container px-5">
-        <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
-      </div>
-    </div>
+  <h3 style="margin-top: 2rem; color: #111; text-align: center;">¡Suscríbete ahora!</h3>
+  <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <form style="margin-top: 1rem; text-align: center;">
+      <input type="email" placeholder="Tu correo electrónico" required style="padding: 0.6rem; width: 60%; max-width: 300px; border: 1px solid #ccc; border-radius: 5px;">
+      <button type="submit" style="padding: 0.6rem 1.2rem; background-color: #ffcc00; color: #000; border: none; border-radius: 5px; cursor: pointer;">Suscribirme</button>
+    </form>
+    <p style="margin-top: 1rem; font-size: 0.9rem; color: #777;">Nada de spam. Solo pasión por los videojuegos 💛</p>
   </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
-      <div class="col-lg-7 text-center text-lg-start">
-        <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-        <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-      </div>
-      <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-          </div>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-          <hr class="my-4">
-          <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
-      </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="bg-dark text-secondary px-4 py-5 text-center">
-    <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="b-example-divider mb-0"></div>
-</main>
-
+</section>
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
  <!-- Option 1: Bootstrap Bundle with Popper -->
